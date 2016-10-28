@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Simple Telegram message sender
+#
+# /etc/cron.d/sampleTgReminder
+# 0 10,12,14,16 * * 1,2,3,4,5 root /usr/local/sbin/tgShepherd.sh -d random -m "Coffe break!"
+# 
+# https://github.com/jfoboss/telegram-cron-shepherd
+
 CHATID="<your-chatId>"
 BOT_ID="<your-botid>"
 
