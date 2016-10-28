@@ -37,12 +37,12 @@ BQADBAADmDQAAh0bZAcGukzcCeuEJwI \
 function usage() {
     cat << EOF
 
-Usage: $0 -m "<message>" [-i (random|<image_id>)]
+Usage: $0 -m "<message>" [-d (random|<image_id>)]
 
 Options:
-    -m "<message>"   Send meaage
+    -m "<message>"         Send meaage
 
-    -i yes           Send creepy image
+    -d (random|<image_id>) Send creepy random image or image with image_id
 
 Example:
     $0 -m "Hello world!"
