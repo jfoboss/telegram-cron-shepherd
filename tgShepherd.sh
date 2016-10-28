@@ -40,7 +40,7 @@ function usage() {
 Usage: $0 -m "<message>" [-d (random|<image_id>)]
 
 Options:
-    -m "<message>"         Send meaage
+    -m "<message>"         Send message
 
     -d (random|<image_id>) Send creepy random image or image with image_id
 
