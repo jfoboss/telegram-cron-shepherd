@@ -1,6 +1,10 @@
 # telegram-cron-shepherd
 Simple Telegram message sender written in Bash
 
+You need only Telegram api-key, curl & crontab rules.
+
+`jq` is used only for debug purposes, you may remove it safely.
+
 # Install & Config
 1. Create Bot: https://core.telegram.org/bots#6-botfather
 2. Put API key to `BOT_ID` variable
